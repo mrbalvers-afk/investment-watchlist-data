@@ -4,13 +4,13 @@
   "stale": false,
   "architecture": "Yahoo Finance primary + EODHD fallback only",
   "methodology": "Price return using Yahoo Close; invalid/zero closes excluded; EODHD used only when Yahoo fails",
-  "generated_at_utc": "2026-09-04T22:24:35.561Z",
+  "generated_at_utc": "2026-09-11T22:25:46.606Z",
   "instruments_requested": 37,
   "instruments_successful": 37,
   "instruments_failed": 0,
   "data_quality": {
-    "applicable_return_cells": 179,
-    "populated_return_cells": 178,
+    "applicable_return_cells": 180,
+    "populated_return_cells": 179,
     "completeness_percent": 99.44
   },
   "source_usage": {
@@ -26,45 +26,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-03",
-        "close": 1423.4000244140625
+        "date": "2026-09-10",
+        "close": 1474.199951171875
       },
       "returns": {
         "wtd": {
-          "percent": -4.75,
+          "percent": 0.46,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 1494.4000244140625
+          "comparison_date": "2026-09-04",
+          "comparison_close": 1467.4000244140625
         },
         "ytd": {
-          "percent": 54.48,
+          "percent": 60,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 921.4000244140625
         },
         "y1": {
-          "percent": 127.63,
+          "percent": 116.73,
           "status": "ok",
-          "comparison_date": "2025-09-03",
-          "comparison_close": 625.2999877929688
+          "comparison_date": "2025-09-10",
+          "comparison_close": 680.2000122070312
         },
         "y2": {
-          "percent": 81.83,
+          "percent": 119.21,
           "status": "ok",
-          "comparison_date": "2024-09-03",
-          "comparison_close": 782.7999877929688
+          "comparison_date": "2024-09-10",
+          "comparison_close": 672.5
         },
         "y3": {
-          "percent": 130.77,
+          "percent": 155.32,
           "status": "ok",
-          "comparison_date": "2023-09-04",
-          "comparison_close": 616.7999877929688
+          "comparison_date": "2023-09-11",
+          "comparison_close": 577.4000244140625
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-03",
-        "observations": 1280
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1279
       },
       "yahoo_symbol": "ASML.AS",
       "eodhd_symbol": "ASML.AS"
@@ -76,45 +76,45 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 427.07000732421875
+        "date": "2026-09-11",
+        "close": 420.6700134277344
       },
       "returns": {
         "wtd": {
-          "percent": -2.61,
+          "percent": -1.5,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 438.5
+          "comparison_date": "2026-09-04",
+          "comparison_close": 427.07000732421875
         },
         "ytd": {
-          "percent": 2.95,
+          "percent": 1.41,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 414.82000732421875
         },
         "y1": {
-          "percent": 25.06,
+          "percent": 20.13,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 341.489990234375
+          "comparison_date": "2025-09-11",
+          "comparison_close": 350.19000244140625
         },
         "y2": {
-          "percent": 77.53,
+          "percent": 73.57,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 240.55999755859375
+          "comparison_date": "2024-09-11",
+          "comparison_close": 242.3699951171875
         },
         "y3": {
-          "percent": 128.17,
+          "percent": 126.57,
           "status": "ok",
-          "comparison_date": "2023-09-04",
-          "comparison_close": 187.1699981689453
+          "comparison_date": "2023-09-11",
+          "comparison_close": 185.6699981689453
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-04",
-        "observations": 1261
+        "start": "2021-09-13",
+        "end": "2026-09-11",
+        "observations": 1262
       },
       "yahoo_symbol": "SGLD.L",
       "eodhd_symbol": "SGLD.LSE"
@@ -126,33 +126,33 @@
       "currency": "HKD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 54.81999969482422
+        "date": "2026-09-11",
+        "close": 54.68000030517578
       },
       "returns": {
         "wtd": {
-          "percent": -1.44,
+          "percent": -0.26,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 55.619998931884766
+          "comparison_date": "2026-09-04",
+          "comparison_close": 54.81999969482422
         },
         "ytd": {
-          "percent": -1.93,
+          "percent": -2.18,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 55.900001525878906
         },
         "y1": {
-          "percent": -1.76,
+          "percent": -2.15,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 55.79999923706055
+          "comparison_date": "2025-09-11",
+          "comparison_close": 55.880001068115234
         },
         "y2": {
-          "percent": -2.35,
+          "percent": -3.9,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 56.13999938964844
+          "comparison_date": "2024-09-11",
+          "comparison_close": 56.900001525878906
         },
         "y3": {
           "percent": null,
@@ -162,8 +162,8 @@
       },
       "history": {
         "start": "2024-07-11",
-        "end": "2026-09-04",
-        "observations": 526
+        "end": "2026-09-11",
+        "observations": 531
       },
       "yahoo_symbol": "3450.HK",
       "eodhd_symbol": null
@@ -175,45 +175,45 @@
       "currency": "HKD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 4.515999794006348
+        "date": "2026-09-10",
+        "close": 4.329999923706055
       },
       "returns": {
         "wtd": {
-          "percent": -1.95,
+          "percent": -5.09,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 4.605999946594238
+          "comparison_date": "2026-09-04",
+          "comparison_close": 4.561999797821045
         },
         "ytd": {
-          "percent": -17.67,
+          "percent": -21.06,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 5.485000133514404
         },
         "y1": {
-          "percent": -20.98,
+          "percent": -26.49,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 5.715000152587891
+          "comparison_date": "2025-09-10",
+          "comparison_close": 5.889999866485596
         },
         "y2": {
-          "percent": 28.66,
+          "percent": 26.17,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 3.509999990463257
+          "comparison_date": "2024-09-10",
+          "comparison_close": 3.431999921798706
         },
         "y3": {
-          "percent": 7.88,
+          "percent": 6.39,
           "status": "ok",
-          "comparison_date": "2023-08-31",
-          "comparison_close": 4.185999870300293
+          "comparison_date": "2023-09-11",
+          "comparison_close": 4.070000171661377
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1225
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1226
       },
       "yahoo_symbol": "3032.HK",
       "eodhd_symbol": "3032.HK"
@@ -225,45 +225,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 110.72000122070312
+        "date": "2026-09-10",
+        "close": 109.72000122070312
       },
       "returns": {
         "wtd": {
-          "percent": -1.41,
+          "percent": -1.72,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 112.30000305175781
+          "comparison_date": "2026-09-04",
+          "comparison_close": 111.63999938964844
         },
         "ytd": {
-          "percent": 16.51,
+          "percent": 15.46,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 95.02999877929688
         },
         "y1": {
-          "percent": 23.94,
+          "percent": 21.32,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 89.33000183105469
+          "comparison_date": "2025-09-10",
+          "comparison_close": 90.44000244140625
         },
         "y2": {
-          "percent": 19.22,
+          "percent": 23.94,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 92.87000274658203
+          "comparison_date": "2024-09-10",
+          "comparison_close": 88.52999877929688
         },
         "y3": {
-          "percent": 46.88,
+          "percent": 48.27,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 75.37999725341797
+          "comparison_date": "2023-09-11",
+          "comparison_close": 74
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1278
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1279
       },
       "yahoo_symbol": "TDT.AS",
       "eodhd_symbol": "TDT.AS"
@@ -275,45 +275,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 244.75
+        "date": "2026-09-10",
+        "close": 239.5500030517578
       },
       "returns": {
         "wtd": {
-          "percent": 0.12,
+          "percent": -2.4,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 244.4499969482422
+          "comparison_date": "2026-09-04",
+          "comparison_close": 245.4499969482422
         },
         "ytd": {
-          "percent": 12.27,
+          "percent": 9.89,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 218
         },
         "y1": {
-          "percent": 19.45,
+          "percent": 15.92,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 204.89999389648438
+          "comparison_date": "2025-09-10",
+          "comparison_close": 206.64999389648438
         },
         "y2": {
-          "percent": 29.94,
+          "percent": 29.03,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 188.36000061035156
+          "comparison_date": "2024-09-10",
+          "comparison_close": 185.66000366210938
         },
         "y3": {
-          "percent": 57.15,
+          "percent": 52.17,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 155.74000549316406
+          "comparison_date": "2023-09-11",
+          "comparison_close": 157.4199981689453
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1277
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1278
       },
       "yahoo_symbol": "CD9.PA",
       "eodhd_symbol": "CD9.PA"
@@ -325,45 +325,45 @@
       "currency": "HKD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 3119
+        "date": "2026-09-10",
+        "close": 3165
       },
       "returns": {
         "wtd": {
-          "percent": -5.86,
+          "percent": -1.89,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 3313
+          "comparison_date": "2026-09-04",
+          "comparison_close": 3226
         },
         "ytd": {
-          "percent": 0.26,
+          "percent": 1.74,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 3111
         },
         "y1": {
-          "percent": 25.01,
+          "percent": 21.03,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 2495
+          "comparison_date": "2025-09-10",
+          "comparison_close": 2615
         },
         "y2": {
-          "percent": 73.23,
+          "percent": 75.49,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 1800.5
+          "comparison_date": "2024-09-10",
+          "comparison_close": 1803.5
         },
         "y3": {
-          "percent": 120.27,
+          "percent": 126.07,
           "status": "ok",
-          "comparison_date": "2023-08-31",
-          "comparison_close": 1416
+          "comparison_date": "2023-09-11",
+          "comparison_close": 1400
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1223
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1224
       },
       "yahoo_symbol": "2840.HK",
       "eodhd_symbol": "2840.HK"
@@ -375,45 +375,45 @@
       "currency": "HKD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 25.860000610351562
+        "date": "2026-09-10",
+        "close": 25.579999923706055
       },
       "returns": {
         "wtd": {
-          "percent": -1,
+          "percent": -2.59,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 26.1200008392334
+          "comparison_date": "2026-09-04",
+          "comparison_close": 26.260000228881836
         },
         "ytd": {
-          "percent": 0.15,
+          "percent": -0.93,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 25.81999969482422
         },
         "y1": {
-          "percent": -0.69,
+          "percent": -4.55,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 26.040000915527344
+          "comparison_date": "2025-09-10",
+          "comparison_close": 26.799999237060547
         },
         "y2": {
-          "percent": 41.31,
+          "percent": 42.83,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 18.299999237060547
+          "comparison_date": "2024-09-10",
+          "comparison_close": 17.90999984741211
         },
         "y3": {
-          "percent": 36.61,
+          "percent": 36.65,
           "status": "ok",
-          "comparison_date": "2023-08-31",
-          "comparison_close": 18.93000030517578
+          "comparison_date": "2023-09-11",
+          "comparison_close": 18.719999313354492
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1224
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1225
       },
       "yahoo_symbol": "2800.HK",
       "eodhd_symbol": "2800.HK"
@@ -425,44 +425,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 39.625
+        "date": "2026-09-10",
+        "close": 38.904998779296875
       },
       "returns": {
         "wtd": {
-          "percent": -1.25,
+          "percent": -2.19,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 40.125
+          "comparison_date": "2026-09-04",
+          "comparison_close": 39.775001525878906
         },
         "ytd": {
-          "percent": 15.74,
+          "percent": 13.64,
           "status": "ok",
           "comparison_date": "2025-12-30",
           "comparison_close": 34.23500061035156
         },
         "y1": {
-          "percent": 24.92,
+          "percent": 21.69,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 31.719999313354492
+          "comparison_date": "2025-09-10",
+          "comparison_close": 31.969999313354492
         },
         "y2": {
-          "percent": 25,
+          "percent": 24.76,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 31.700000762939453
+          "comparison_date": "2024-09-10",
+          "comparison_close": 31.184999465942383
         },
         "y3": {
-          "percent": null,
-          "status": "not_available",
-          "reason": "Fund inception 2023-09-13"
+          "percent": 29.7,
+          "status": "ok",
+          "comparison_date": "2023-09-13",
+          "comparison_close": 29.99570083618164
         }
       },
       "history": {
         "start": "2023-09-13",
-        "end": "2026-09-02",
-        "observations": 753
+        "end": "2026-09-10",
+        "observations": 759
       },
       "yahoo_symbol": "XZDW.DE",
       "eodhd_symbol": "XZDW.XETRA"
@@ -474,45 +475,45 @@
       "currency": "HKD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 24.260000228881836
+        "date": "2026-09-10",
+        "close": 23.84000015258789
       },
       "returns": {
         "wtd": {
-          "percent": -1.38,
+          "percent": -2.53,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 24.600000381469727
+          "comparison_date": "2026-09-04",
+          "comparison_close": 24.459999084472656
         },
         "ytd": {
-          "percent": -8.52,
+          "percent": -10.11,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 26.520000457763672
         },
         "y1": {
-          "percent": -10.55,
+          "percent": -14.24,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 27.1200008392334
+          "comparison_date": "2025-09-10",
+          "comparison_close": 27.799999237060547
         },
         "y2": {
-          "percent": 34.18,
+          "percent": 34.69,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 18.079999923706055
+          "comparison_date": "2024-09-10",
+          "comparison_close": 17.700000762939453
         },
         "y3": {
-          "percent": 25.25,
+          "percent": 23.14,
           "status": "ok",
-          "comparison_date": "2023-08-31",
-          "comparison_close": 19.3700008392334
+          "comparison_date": "2023-09-11",
+          "comparison_close": 19.360000610351562
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1224
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1225
       },
       "yahoo_symbol": "2801.HK",
       "eodhd_symbol": "2801.HK"
@@ -524,44 +525,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 534.0800170898438
+        "date": "2026-09-11",
+        "close": 525.7899780273438
       },
       "returns": {
         "wtd": {
-          "percent": -0.18,
+          "percent": -1.55,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 535.0599975585938
+          "comparison_date": "2026-09-04",
+          "comparison_close": 534.0800170898438
         },
         "ytd": {
-          "percent": 11.13,
+          "percent": 9.41,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 480.57000732421875
         },
         "y1": {
-          "percent": 16.85,
+          "percent": 13.83,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 457.04998779296875
+          "comparison_date": "2025-09-11",
+          "comparison_close": 461.9200134277344
         },
         "y2": {
-          "percent": 30.13,
+          "percent": 28.47,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 410.4200134277344
+          "comparison_date": "2024-09-11",
+          "comparison_close": 409.2699890136719
         },
         "y3": {
-          "percent": 53.92,
+          "percent": 51.36,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 346.9800109863281
+          "comparison_date": "2023-09-11",
+          "comparison_close": 347.3699951171875
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "DIA",
@@ -574,45 +575,45 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 51.58000183105469
+        "date": "2026-09-11",
+        "close": 51.959999084472656
       },
       "returns": {
         "wtd": {
-          "percent": -0.6,
+          "percent": 0.74,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 51.88999938964844
+          "comparison_date": "2026-09-04",
+          "comparison_close": 51.58000183105469
         },
         "ytd": {
-          "percent": 22.4,
+          "percent": 23.3,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 42.13999938964844
         },
         "y1": {
-          "percent": 34.81,
+          "percent": 31.11,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 38.2599983215332
+          "comparison_date": "2025-09-11",
+          "comparison_close": 39.630001068115234
         },
         "y2": {
-          "percent": 72.39,
+          "percent": 74.19,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 29.920000076293945
+          "comparison_date": "2024-09-11",
+          "comparison_close": 29.829999923706055
         },
         "y3": {
-          "percent": 126.68,
+          "percent": 134.64,
           "status": "ok",
-          "comparison_date": "2023-09-04",
-          "comparison_close": 22.7549991607666
+          "comparison_date": "2023-09-11",
+          "comparison_close": 22.145000457763672
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-04",
-        "observations": 1261
+        "start": "2021-09-13",
+        "end": "2026-09-11",
+        "observations": 1262
       },
       "yahoo_symbol": "IUIT.L",
       "eodhd_symbol": "IUIT.LSE"
@@ -624,45 +625,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 4.867499828338623
+        "date": "2026-09-10",
+        "close": 4.8445000648498535
       },
       "returns": {
         "wtd": {
-          "percent": -0.5,
+          "percent": -0.76,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 4.892000198364258
+          "comparison_date": "2026-09-04",
+          "comparison_close": 4.881499767303467
         },
         "ytd": {
-          "percent": -1.41,
+          "percent": -1.87,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 4.936999797821045
         },
         "y1": {
-          "percent": -0.25,
+          "percent": -1.6,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 4.879700183868408
+          "comparison_date": "2025-09-10",
+          "comparison_close": 4.923099994659424
         },
         "y2": {
-          "percent": 0.78,
+          "percent": -0.8,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 4.829999923706055
+          "comparison_date": "2024-09-10",
+          "comparison_close": 4.883800029754639
         },
         "y3": {
-          "percent": 6.58,
+          "percent": 6.72,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 4.566999912261963
+          "comparison_date": "2023-09-11",
+          "comparison_close": 4.539299964904785
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1277
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1278
       },
       "yahoo_symbol": "AGGH.AS",
       "eodhd_symbol": "AGGH.AS"
@@ -674,45 +675,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 55.52000045776367
+        "date": "2026-09-10",
+        "close": 54.86000061035156
       },
       "returns": {
         "wtd": {
-          "percent": -0.05,
+          "percent": -1.51,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 55.54999923706055
+          "comparison_date": "2026-09-04",
+          "comparison_close": 55.70000076293945
         },
         "ytd": {
-          "percent": 15.64,
+          "percent": 14.27,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 48.0099983215332
         },
         "y1": {
-          "percent": 26.4,
+          "percent": 24.6,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 43.92499923706055
+          "comparison_date": "2025-09-10",
+          "comparison_close": 44.029998779296875
         },
         "y2": {
-          "percent": 41.27,
+          "percent": 42.94,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 39.29999923706055
+          "comparison_date": "2024-09-10",
+          "comparison_close": 38.380001068115234
         },
         "y3": {
-          "percent": 60.07,
+          "percent": 59.62,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 34.685001373291016
+          "comparison_date": "2023-09-11",
+          "comparison_close": 34.369998931884766
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1278
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1279
       },
       "yahoo_symbol": "TDIV.AS",
       "eodhd_symbol": "TDIV.AS"
@@ -724,33 +725,33 @@
       "currency": "HKD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 36.13999938964844
+        "date": "2026-09-10",
+        "close": 36.20000076293945
       },
       "returns": {
         "wtd": {
-          "percent": -1.31,
+          "percent": -0.33,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 36.619998931884766
+          "comparison_date": "2026-09-04",
+          "comparison_close": 36.31999969482422
         },
         "ytd": {
-          "percent": 4.69,
+          "percent": 4.87,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 34.52000045776367
         },
         "y1": {
-          "percent": 6.29,
+          "percent": 9.56,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 34
+          "comparison_date": "2025-09-10",
+          "comparison_close": 33.040000915527344
         },
         "y2": {
-          "percent": 50.83,
+          "percent": 54.17,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 23.959999084472656
+          "comparison_date": "2024-09-10",
+          "comparison_close": 23.479999542236328
         },
         "y3": {
           "percent": null,
@@ -759,8 +760,8 @@
       },
       "history": {
         "start": "2024-04-24",
-        "end": "2026-09-02",
-        "observations": 578
+        "end": "2026-09-10",
+        "observations": 584
       },
       "yahoo_symbol": "2846.HK",
       "eodhd_symbol": "2846.HK"
@@ -772,27 +773,27 @@
       "currency": "HKD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 81.58000183105469
+        "date": "2026-09-10",
+        "close": 83.0199966430664
       },
       "returns": {
         "wtd": {
-          "percent": -0.66,
+          "percent": 1.22,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 82.12000274658203
+          "comparison_date": "2026-09-04",
+          "comparison_close": 82.0199966430664
         },
         "ytd": {
-          "percent": 26.95,
+          "percent": 29.19,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 64.26000213623047
         },
         "y1": {
-          "percent": 37.8,
+          "percent": 36.55,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 59.20000076293945
+          "comparison_date": "2025-09-10",
+          "comparison_close": 60.79999923706055
         },
         "y2": {
           "percent": null,
@@ -807,8 +808,8 @@
       },
       "history": {
         "start": "2025-07-24",
-        "end": "2026-09-02",
-        "observations": 272
+        "end": "2026-09-10",
+        "observations": 278
       },
       "yahoo_symbol": "3064.HK",
       "eodhd_symbol": "3064.HK"
@@ -820,45 +821,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 64.5199966430664
+        "date": "2026-09-10",
+        "close": 62.90999984741211
       },
       "returns": {
         "wtd": {
-          "percent": -1.06,
+          "percent": -2.42,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 65.20999908447266
+          "comparison_date": "2026-09-04",
+          "comparison_close": 64.47000122070312
         },
         "ytd": {
-          "percent": 15.4,
+          "percent": 12.52,
           "status": "ok",
           "comparison_date": "2025-12-30",
           "comparison_close": 55.90999984741211
         },
         "y1": {
-          "percent": 19.7,
+          "percent": 16.85,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 53.900001525878906
+          "comparison_date": "2025-09-10",
+          "comparison_close": 53.84000015258789
         },
         "y2": {
-          "percent": 22.04,
+          "percent": 21.24,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 52.869998931884766
+          "comparison_date": "2024-09-10",
+          "comparison_close": 51.88999938964844
         },
         "y3": {
-          "percent": 41.07,
+          "percent": 39.49,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 45.73500061035156
+          "comparison_date": "2023-09-11",
+          "comparison_close": 45.099998474121094
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1271
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1272
       },
       "yahoo_symbol": "SP2Q.DE",
       "eodhd_symbol": "SP2Q.XETRA"
@@ -870,44 +871,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 29.399999618530273
+        "date": "2026-09-11",
+        "close": 29.1200008392334
       },
       "returns": {
         "wtd": {
-          "percent": -0.14,
+          "percent": -0.95,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 29.440000534057617
+          "comparison_date": "2026-09-04",
+          "comparison_close": 29.399999618530273
         },
         "ytd": {
-          "percent": 20.88,
+          "percent": 19.73,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 24.32200050354004
         },
         "y1": {
-          "percent": 20.04,
+          "percent": 17.96,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 24.492000579833984
+          "comparison_date": "2025-09-11",
+          "comparison_close": 24.68600082397461
         },
         "y2": {
-          "percent": 24.9,
+          "percent": 25.2,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 23.538000106811523
+          "comparison_date": "2024-09-11",
+          "comparison_close": 23.257999420166016
         },
         "y3": {
-          "percent": 42.91,
+          "percent": 41.66,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 20.57200050354004
+          "comparison_date": "2023-09-11",
+          "comparison_close": 20.555999755859375
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "HDV",
@@ -920,44 +921,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 79.12999725341797
+        "date": "2026-09-11",
+        "close": 78.23999786376953
       },
       "returns": {
         "wtd": {
-          "percent": -0.29,
+          "percent": -1.12,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 79.36000061035156
+          "comparison_date": "2026-09-04",
+          "comparison_close": 79.12999725341797
         },
         "ytd": {
-          "percent": 13.99,
+          "percent": 12.71,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 69.41999816894531
         },
         "y1": {
-          "percent": 18.1,
+          "percent": 14.99,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 67
+          "comparison_date": "2025-09-11",
+          "comparison_close": 68.04000091552734
         },
         "y2": {
-          "percent": 28.67,
+          "percent": 28.33,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 61.5
+          "comparison_date": "2024-09-11",
+          "comparison_close": 60.970001220703125
         },
         "y3": {
-          "percent": 53.12,
+          "percent": 51.57,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 51.68000030517578
+          "comparison_date": "2023-09-11",
+          "comparison_close": 51.619998931884766
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "DGRO",
@@ -970,45 +971,45 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 83.19000244140625
+        "date": "2026-09-11",
+        "close": 82.8499984741211
       },
       "returns": {
         "wtd": {
-          "percent": 1.71,
+          "percent": -0.41,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 81.79000091552734
+          "comparison_date": "2026-09-04",
+          "comparison_close": 83.19000244140625
         },
         "ytd": {
-          "percent": 38.27,
+          "percent": 37.7,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 60.165000915527344
         },
         "y1": {
-          "percent": 57.5,
+          "percent": 52.78,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 52.81999969482422
+          "comparison_date": "2025-09-11",
+          "comparison_close": 54.22999954223633
         },
         "y2": {
-          "percent": 90.19,
+          "percent": 94.39,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 43.7400016784668
+          "comparison_date": "2024-09-11",
+          "comparison_close": 42.619998931884766
         },
         "y3": {
-          "percent": 116.08,
+          "percent": 116.21,
           "status": "ok",
-          "comparison_date": "2023-09-04",
-          "comparison_close": 38.5
+          "comparison_date": "2023-09-11",
+          "comparison_close": 38.31999969482422
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-04",
-        "observations": 1261
+        "start": "2021-09-13",
+        "end": "2026-09-11",
+        "observations": 1262
       },
       "yahoo_symbol": "IWVL.L",
       "eodhd_symbol": "IWVL.LSE"
@@ -1020,45 +1021,45 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 95.41500091552734
+        "date": "2026-09-11",
+        "close": 94.30750274658203
       },
       "returns": {
         "wtd": {
-          "percent": 0.7,
+          "percent": -1.16,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 94.75499725341797
+          "comparison_date": "2026-09-04",
+          "comparison_close": 95.41500091552734
         },
         "ytd": {
-          "percent": 16.39,
+          "percent": 15.04,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 81.9800033569336
         },
         "y1": {
-          "percent": 23.8,
+          "percent": 20.35,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 77.07499694824219
+          "comparison_date": "2025-09-11",
+          "comparison_close": 78.36000061035156
         },
         "y2": {
-          "percent": 38.51,
+          "percent": 40.26,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 68.88500213623047
+          "comparison_date": "2024-09-11",
+          "comparison_close": 67.23999786376953
         },
         "y3": {
-          "percent": 58.37,
+          "percent": 57.19,
           "status": "ok",
-          "comparison_date": "2023-09-04",
-          "comparison_close": 60.247501373291016
+          "comparison_date": "2023-09-11",
+          "comparison_close": 59.994998931884766
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-04",
-        "observations": 1260
+        "start": "2021-09-13",
+        "end": "2026-09-11",
+        "observations": 1261
       },
       "yahoo_symbol": "VHYD.L",
       "eodhd_symbol": "VHYD.LSE"
@@ -1070,44 +1071,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 296.07000732421875
+        "date": "2026-09-11",
+        "close": 294.3900146484375
       },
       "returns": {
         "wtd": {
-          "percent": 0.36,
+          "percent": -0.57,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 295
+          "comparison_date": "2026-09-04",
+          "comparison_close": 296.07000732421875
         },
         "ytd": {
-          "percent": 17.06,
+          "percent": 16.4,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 252.9199981689453
         },
         "y1": {
-          "percent": 25.03,
+          "percent": 22.43,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 236.7899932861328
+          "comparison_date": "2025-09-11",
+          "comparison_close": 240.4600067138672
         },
         "y2": {
-          "percent": 56.2,
+          "percent": 52.69,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 189.5500030517578
+          "comparison_date": "2024-09-11",
+          "comparison_close": 192.8000030517578
         },
         "y3": {
-          "percent": 90.34,
+          "percent": 89.79,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 155.5500030517578
+          "comparison_date": "2023-09-11",
+          "comparison_close": 155.11000061035156
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "QQQM",
@@ -1120,45 +1121,45 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 10.637999534606934
+        "date": "2026-09-11",
+        "close": 10.444000244140625
       },
       "returns": {
         "wtd": {
-          "percent": -0.34,
+          "percent": -1.82,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 10.673999786376953
+          "comparison_date": "2026-09-04",
+          "comparison_close": 10.637999534606934
         },
         "ytd": {
-          "percent": 17.18,
+          "percent": 15.05,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 9.07800006866455
         },
         "y1": {
-          "percent": 23.84,
+          "percent": 18.72,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 8.59000015258789
+          "comparison_date": "2025-09-11",
+          "comparison_close": 8.79699993133545
         },
         "y2": {
-          "percent": 42.81,
+          "percent": 44.27,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 7.448999881744385
+          "comparison_date": "2024-09-11",
+          "comparison_close": 7.238999843597412
         },
         "y3": {
-          "percent": 61.33,
+          "percent": 61.92,
           "status": "ok",
-          "comparison_date": "2023-09-04",
-          "comparison_close": 6.593999862670898
+          "comparison_date": "2023-09-11",
+          "comparison_close": 6.449999809265137
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-04",
-        "observations": 1261
+        "start": "2021-09-13",
+        "end": "2026-09-11",
+        "observations": 1262
       },
       "yahoo_symbol": "WSML.L",
       "eodhd_symbol": "WSML.LSE"
@@ -1170,44 +1171,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 34.79999923706055
+        "date": "2026-09-11",
+        "close": 34.119998931884766
       },
       "returns": {
         "wtd": {
-          "percent": -0.29,
+          "percent": -1.95,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 34.900001525878906
+          "comparison_date": "2026-09-04",
+          "comparison_close": 34.79999923706055
         },
         "ytd": {
-          "percent": 26.87,
+          "percent": 24.39,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 27.43000030517578
         },
         "y1": {
-          "percent": 25.68,
+          "percent": 23.09,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 27.690000534057617
+          "comparison_date": "2025-09-11",
+          "comparison_close": 27.719999313354492
         },
         "y2": {
-          "percent": 25.03,
+          "percent": 24,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 27.833332061767578
+          "comparison_date": "2024-09-11",
+          "comparison_close": 27.516666412353516
         },
         "y3": {
-          "percent": 41.06,
+          "percent": 38.74,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 24.670000076293945
+          "comparison_date": "2023-09-11",
+          "comparison_close": 24.593332290649414
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "SCHD",
@@ -1220,45 +1221,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 125.6050033569336
+        "date": "2026-09-10",
+        "close": 124.197998046875
       },
       "returns": {
         "wtd": {
-          "percent": -1,
+          "percent": -1.3,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 126.87699890136719
+          "comparison_date": "2026-09-04",
+          "comparison_close": 125.83999633789062
         },
         "ytd": {
-          "percent": 13.09,
+          "percent": 11.83,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 111.06300354003906
         },
         "y1": {
-          "percent": 21.06,
+          "percent": 17.37,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 103.75700378417969
+          "comparison_date": "2025-09-10",
+          "comparison_close": 105.81900024414062
         },
         "y2": {
-          "percent": 29.59,
+          "percent": 31.53,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 96.92500305175781
+          "comparison_date": "2024-09-10",
+          "comparison_close": 94.4280014038086
         },
         "y3": {
-          "percent": 58.08,
+          "percent": 56.97,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 79.45700073242188
+          "comparison_date": "2023-09-11",
+          "comparison_close": 79.12300109863281
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1276
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1277
       },
       "yahoo_symbol": "VUSA.AS",
       "eodhd_symbol": "VUSA.AS"
@@ -1270,44 +1271,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 242.02000427246094
+        "date": "2026-09-11",
+        "close": 239.42999267578125
       },
       "returns": {
         "wtd": {
-          "percent": -0.43,
+          "percent": -1.07,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 243.07000732421875
+          "comparison_date": "2026-09-04",
+          "comparison_close": 242.02000427246094
         },
         "ytd": {
-          "percent": 10.12,
+          "percent": 8.94,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 219.77999877929688
         },
         "y1": {
-          "percent": 14.28,
+          "percent": 10.58,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 211.77999877929688
+          "comparison_date": "2025-09-11",
+          "comparison_close": 216.52000427246094
         },
         "y2": {
-          "percent": 24.87,
+          "percent": 23.86,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 193.80999755859375
+          "comparison_date": "2024-09-11",
+          "comparison_close": 193.3000030517578
         },
         "y3": {
-          "percent": 49.23,
+          "percent": 47.78,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 162.17999267578125
+          "comparison_date": "2023-09-11",
+          "comparison_close": 162.02000427246094
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "VIG",
@@ -1320,44 +1321,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 107.02999877929688
+        "date": "2026-09-11",
+        "close": 105.5999984741211
       },
       "returns": {
         "wtd": {
-          "percent": 1.86,
+          "percent": -1.34,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 105.08000183105469
+          "comparison_date": "2026-09-04",
+          "comparison_close": 107.02999877929688
         },
         "ytd": {
-          "percent": 18.92,
+          "percent": 17.33,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 90
         },
         "y1": {
-          "percent": 27.39,
+          "percent": 23.28,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 84.0199966430664
+          "comparison_date": "2025-09-11",
+          "comparison_close": 85.66000366210938
         },
         "y2": {
-          "percent": 49.92,
+          "percent": 48.84,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 71.38999938964844
+          "comparison_date": "2024-09-11",
+          "comparison_close": 70.94999694824219
         },
         "y3": {
-          "percent": 69.73,
+          "percent": 66.19,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 63.060001373291016
+          "comparison_date": "2023-09-11",
+          "comparison_close": 63.540000915527344
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "VYMI",
@@ -1370,44 +1371,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 770.1900024414062
+        "date": "2026-09-11",
+        "close": 764.2899780273438
       },
       "returns": {
         "wtd": {
-          "percent": 0.11,
+          "percent": -0.77,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 769.3499755859375
+          "comparison_date": "2026-09-04",
+          "comparison_close": 770.1900024414062
         },
         "ytd": {
-          "percent": 12.94,
+          "percent": 12.08,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 681.9199829101562
         },
         "y1": {
-          "percent": 18.65,
+          "percent": 16.22,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 649.1199951171875
+          "comparison_date": "2025-09-11",
+          "comparison_close": 657.6300048828125
         },
         "y2": {
-          "percent": 39.79,
+          "percent": 37.85,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 550.9500122070312
+          "comparison_date": "2024-09-11",
+          "comparison_close": 554.4199829101562
         },
         "y3": {
-          "percent": 71.44,
+          "percent": 70.43,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 449.239990234375
+          "comparison_date": "2023-09-11",
+          "comparison_close": 448.45001220703125
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "SPY",
@@ -1420,45 +1421,45 @@
       "currency": "HKD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 88.83999633789062
+        "date": "2026-09-10",
+        "close": 91.33999633789062
       },
       "returns": {
         "wtd": {
-          "percent": -1.79,
+          "percent": 0.77,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 90.45999908447266
+          "comparison_date": "2026-09-04",
+          "comparison_close": 90.63999938964844
         },
         "ytd": {
-          "percent": 25.13,
+          "percent": 28.65,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 71
         },
         "y1": {
-          "percent": 36.55,
+          "percent": 35.16,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 65.05999755859375
+          "comparison_date": "2025-09-10",
+          "comparison_close": 67.58000183105469
         },
         "y2": {
-          "percent": 61.64,
+          "percent": 70.73,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 54.959999084472656
+          "comparison_date": "2024-09-10",
+          "comparison_close": 53.5
         },
         "y3": {
-          "percent": 75.92,
+          "percent": 84.23,
           "status": "ok",
-          "comparison_date": "2023-08-31",
-          "comparison_close": 50.5
+          "comparison_date": "2023-09-11",
+          "comparison_close": 49.58000183105469
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1224
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1225
       },
       "yahoo_symbol": "3010.HK",
       "eodhd_symbol": "3010.HK"
@@ -1470,44 +1471,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 708.010009765625
+        "date": "2026-09-11",
+        "close": 702.5599975585938
       },
       "returns": {
         "wtd": {
-          "percent": 0.11,
+          "percent": -0.77,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 707.239990234375
+          "comparison_date": "2026-09-04",
+          "comparison_close": 708.010009765625
         },
         "ytd": {
-          "percent": 12.9,
+          "percent": 12.03,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 627.1300048828125
         },
         "y1": {
-          "percent": 18.68,
+          "percent": 16.21,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 596.5900268554688
+          "comparison_date": "2025-09-11",
+          "comparison_close": 604.5700073242188
         },
         "y2": {
-          "percent": 39.84,
+          "percent": 37.9,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 506.29998779296875
+          "comparison_date": "2024-09-11",
+          "comparison_close": 509.4599914550781
         },
         "y3": {
-          "percent": 71.47,
+          "percent": 70.49,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 412.8999938964844
+          "comparison_date": "2023-09-11",
+          "comparison_close": 412.0799865722656
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "VOO",
@@ -1520,44 +1521,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 773.9199829101562
+        "date": "2026-09-11",
+        "close": 767.9199829101562
       },
       "returns": {
         "wtd": {
-          "percent": 0.12,
+          "percent": -0.78,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 773
+          "comparison_date": "2026-09-04",
+          "comparison_close": 773.9199829101562
         },
         "ytd": {
-          "percent": 12.99,
+          "percent": 12.11,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 684.9400024414062
         },
         "y1": {
-          "percent": 18.66,
+          "percent": 16.18,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 652.2100219726562
+          "comparison_date": "2025-09-11",
+          "comparison_close": 660.9500122070312
         },
         "y2": {
-          "percent": 39.67,
+          "percent": 37.76,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 554.0999755859375
+          "comparison_date": "2024-09-11",
+          "comparison_close": 557.4500122070312
         },
         "y3": {
-          "percent": 71.33,
+          "percent": 70.31,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 451.70001220703125
+          "comparison_date": "2023-09-11",
+          "comparison_close": 450.8999938964844
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "IVV",
@@ -1570,33 +1571,33 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 40.084999084472656
+        "date": "2026-09-10",
+        "close": 39.70000076293945
       },
       "returns": {
         "wtd": {
-          "percent": -1.22,
+          "percent": -2.14,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 40.58000183105469
+          "comparison_date": "2026-09-04",
+          "comparison_close": 40.56999969482422
         },
         "ytd": {
-          "percent": 13.85,
+          "percent": 12.75,
           "status": "ok",
           "comparison_date": "2025-12-30",
           "comparison_close": 35.209999084472656
         },
         "y1": {
-          "percent": 23.87,
+          "percent": 20.25,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 32.36000061035156
+          "comparison_date": "2025-09-10",
+          "comparison_close": 33.01499938964844
         },
         "y2": {
-          "percent": 33.31,
+          "percent": 36.36,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 30.06999969482422
+          "comparison_date": "2024-09-10",
+          "comparison_close": 29.114999771118164
         },
         "y3": {
           "percent": null,
@@ -1606,8 +1607,8 @@
       },
       "history": {
         "start": "2024-03-11",
-        "end": "2026-09-02",
-        "observations": 628
+        "end": "2026-09-10",
+        "observations": 634
       },
       "yahoo_symbol": "EXUS.DE",
       "eodhd_symbol": "EXUS.XETRA"
@@ -1619,45 +1620,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 47.529998779296875
+        "date": "2026-09-10",
+        "close": 47.51499938964844
       },
       "returns": {
         "wtd": {
-          "percent": -0.66,
+          "percent": -1.44,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 47.845001220703125
+          "comparison_date": "2026-09-04",
+          "comparison_close": 48.209999084472656
         },
         "ytd": {
-          "percent": 23.94,
+          "percent": 23.9,
           "status": "ok",
           "comparison_date": "2025-12-30",
           "comparison_close": 38.347999572753906
         },
         "y1": {
-          "percent": 36.72,
+          "percent": 31.96,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 34.76499938964844
+          "comparison_date": "2025-09-10",
+          "comparison_close": 36.00600051879883
         },
         "y2": {
-          "percent": 51.12,
+          "percent": 55.19,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 31.45199966430664
+          "comparison_date": "2024-09-10",
+          "comparison_close": 30.618000030517578
         },
         "y3": {
-          "percent": 67.93,
+          "percent": 68.9,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 28.304000854492188
+          "comparison_date": "2023-09-11",
+          "comparison_close": 28.131999969482422
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1271
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1272
       },
       "yahoo_symbol": "IS3N.DE",
       "eodhd_symbol": "IS3N.XETRA"
@@ -1669,45 +1670,45 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 11.496000289916992
+        "date": "2026-09-10",
+        "close": 11.395999908447266
       },
       "returns": {
         "wtd": {
-          "percent": -1.05,
+          "percent": -1.54,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 11.618000030517578
+          "comparison_date": "2026-09-04",
+          "comparison_close": 11.574000358581543
         },
         "ytd": {
-          "percent": 15.21,
+          "percent": 14.21,
           "status": "ok",
           "comparison_date": "2025-12-30",
           "comparison_close": 9.977999687194824
         },
         "y1": {
-          "percent": 24.71,
+          "percent": 20.98,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 9.218000411987305
+          "comparison_date": "2025-09-10",
+          "comparison_close": 9.420000076293945
         },
         "y2": {
-          "percent": 34.9,
+          "percent": 37.7,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 8.522000312805176
+          "comparison_date": "2024-09-10",
+          "comparison_close": 8.276000022888184
         },
         "y3": {
-          "percent": 60.25,
+          "percent": 59.59,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 7.173600196838379
+          "comparison_date": "2023-09-11",
+          "comparison_close": 7.1407999992370605
         }
       },
       "history": {
-        "start": "2021-09-06",
-        "end": "2026-09-02",
-        "observations": 1273
+        "start": "2021-09-13",
+        "end": "2026-09-10",
+        "observations": 1274
       },
       "yahoo_symbol": "SPYI.DE",
       "eodhd_symbol": "SPYI.XETRA"
@@ -1719,44 +1720,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-04",
-        "close": 164.22999572753906
+        "date": "2026-09-11",
+        "close": 162.9199981689453
       },
       "returns": {
         "wtd": {
-          "percent": -0.01,
+          "percent": -0.8,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 164.25
+          "comparison_date": "2026-09-04",
+          "comparison_close": 164.22999572753906
         },
         "ytd": {
-          "percent": 14.43,
+          "percent": 13.52,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 143.52000427246094
         },
         "y1": {
-          "percent": 17.91,
+          "percent": 14.71,
           "status": "ok",
-          "comparison_date": "2025-09-04",
-          "comparison_close": 139.2899932861328
+          "comparison_date": "2025-09-11",
+          "comparison_close": 142.02999877929688
         },
         "y2": {
-          "percent": 30.65,
+          "percent": 31.18,
           "status": "ok",
-          "comparison_date": "2024-09-04",
-          "comparison_close": 125.69999694824219
+          "comparison_date": "2024-09-11",
+          "comparison_close": 124.19999694824219
         },
         "y3": {
-          "percent": 53.54,
+          "percent": 52.06,
           "status": "ok",
-          "comparison_date": "2023-09-05",
-          "comparison_close": 106.95999908447266
+          "comparison_date": "2023-09-11",
+          "comparison_close": 107.13999938964844
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-04",
+        "start": "2021-09-13",
+        "end": "2026-09-11",
         "observations": 1255
       },
       "yahoo_symbol": "VYM",
@@ -1769,33 +1770,33 @@
       "currency": "EUR",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-02",
-        "close": 16.388500213623047
+        "date": "2026-09-10",
+        "close": 16.203500747680664
       },
       "returns": {
         "wtd": {
-          "percent": -1,
+          "percent": -1.32,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 16.553499221801758
+          "comparison_date": "2026-09-04",
+          "comparison_close": 16.420000076293945
         },
         "ytd": {
-          "percent": 13.48,
+          "percent": 12.2,
           "status": "ok",
           "comparison_date": "2025-12-30",
           "comparison_close": 14.441499710083008
         },
         "y1": {
-          "percent": 22.33,
+          "percent": 18.52,
           "status": "ok",
-          "comparison_date": "2025-09-02",
-          "comparison_close": 13.397000312805176
+          "comparison_date": "2025-09-10",
+          "comparison_close": 13.67199993133545
         },
         "y2": {
-          "percent": 32.39,
+          "percent": 34.42,
           "status": "ok",
-          "comparison_date": "2024-09-02",
-          "comparison_close": 12.378999710083008
+          "comparison_date": "2024-09-10",
+          "comparison_close": 12.054499626159668
         },
         "y3": {
           "percent": null,
@@ -1805,8 +1806,8 @@
       },
       "history": {
         "start": "2023-11-02",
-        "end": "2026-09-02",
-        "observations": 672
+        "end": "2026-09-10",
+        "observations": 678
       },
       "yahoo_symbol": "SPYL.DE",
       "eodhd_symbol": "SPYL.XETRA"
@@ -1818,44 +1819,44 @@
       "currency": "USD",
       "source": "Yahoo Finance",
       "latest": {
-        "date": "2026-09-03",
-        "close": 20
+        "date": "2026-09-10",
+        "close": 19.600000381469727
       },
       "returns": {
         "wtd": {
-          "percent": 0.5,
+          "percent": -1.66,
           "status": "ok",
-          "comparison_date": "2026-08-28",
-          "comparison_close": 19.899999618530273
+          "comparison_date": "2026-09-04",
+          "comparison_close": 19.93000030517578
         },
         "ytd": {
-          "percent": 14.03,
+          "percent": 11.74,
           "status": "ok",
           "comparison_date": "2025-12-31",
           "comparison_close": 17.540000915527344
         },
         "y1": {
-          "percent": 20.19,
+          "percent": 16.25,
           "status": "ok",
-          "comparison_date": "2025-09-03",
-          "comparison_close": 16.639999389648438
+          "comparison_date": "2025-09-10",
+          "comparison_close": 16.860000610351562
         },
         "y2": {
-          "percent": 40.33,
+          "percent": 38.32,
           "status": "ok",
-          "comparison_date": "2024-09-03",
-          "comparison_close": 14.251700401306152
+          "comparison_date": "2024-09-10",
+          "comparison_close": 14.170000076293945
         },
         "y3": {
-          "percent": 71.72,
+          "percent": 69.31,
           "status": "ok",
-          "comparison_date": "2023-09-01",
-          "comparison_close": 11.646699905395508
+          "comparison_date": "2023-09-11",
+          "comparison_close": 11.576700210571289
         }
       },
       "history": {
-        "start": "2021-09-07",
-        "end": "2026-09-03",
+        "start": "2021-09-13",
+        "end": "2026-09-10",
         "observations": 1254
       },
       "yahoo_symbol": "SWPPX",
